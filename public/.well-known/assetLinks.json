@@ -2,7 +2,7 @@
       "relation": ["delegate_permission/common.handle_all_urls"],
       "target": {
         "namespace": "android_app",
-        "package_name": "app.vercel.pwa_twa_blond.twa",
-        "sha256_cert_fingerprints": ["E6:05:A0:E3:DE:33:4A:93:25:4C:78:D2:4E:38:1F:80:10:1E:22:6A:4B:89:E9:F5:D6:6D:FE:8D:A6:CE:AC:A0"]
+        "package_name": "app.netlify.twa_pwa_demo.twa",
+        "sha256_cert_fingerprints": ["10:7E:7A:2A:36:32:1B:93:FE:C7:C0:BA:F5:F6:1B:ED:68:54:74:D0:01:A7:6A:4C:AA:E5:E8:5D:F4:81:CC:45"]
       }
     }]
