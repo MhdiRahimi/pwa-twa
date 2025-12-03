@@ -38,25 +38,5 @@ export default function Home() {
     );
   }
 
-  return (
-    <div className={styles.container}>
-      <h1 className={styles.title}>Home</h1>
-      <p className={styles.description}>Special home page description.</p>
-
-      {!loading && content && (
-        <>
-          <div className={styles.features}>
-            <h2>Key Features</h2>
-            <ul>
-              {content?.features.map((feature, index) => (
-                <li key={index} className={styles.feature}>
-                  {feature}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </>
-      )}
-    </div>
-  );
+  return <div className={styles.container}>test</div>;
 }
