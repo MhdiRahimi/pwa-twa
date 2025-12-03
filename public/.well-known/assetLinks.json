@@ -1,12 +1,8 @@
-[
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "pwa-twa-.com",
-      "sha256_cert_fingerprints": [
-        "2B:FC:D3:CE:4D:4D:B7:B3:71:E3:C1:21:1C:69:94:0A:B5:3E:88:71:E1:9C:F2:09:E3:C6:5D:2A:31:78:9A:C6"
-      ]
-    }
-  }
-]
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.vercel.pwa_twa_blond.twa",
+        "sha256_cert_fingerprints": ["E6:05:A0:E3:DE:33:4A:93:25:4C:78:D2:4E:38:1F:80:10:1E:22:6A:4B:89:E9:F5:D6:6D:FE:8D:A6:CE:AC:A0"]
+      }
+    }]
