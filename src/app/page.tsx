@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 interface ContentData {
   features: string[];
@@ -38,5 +39,9 @@ export default function Home() {
     );
   }
 
-  return <div className={styles.container}>test</div>;
+  return (
+    <div className={styles.container}>
+      <Link href="/PWADemo.apk">install App</Link>
+    </div>
+  );
 }
