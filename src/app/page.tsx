@@ -57,7 +57,7 @@ export default function Home() {
           </div>
 
           <div className={styles.demo}>
-            <p className={styles.timestamp}>Content Type: Dynamic</p>
+            <p className={styles.timestamp}>New Content Type: Dynamic</p>
             <p className={styles.timestamp}>
               Last Updated: {content?.timestamp}
             </p>
