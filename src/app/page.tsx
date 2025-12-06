@@ -41,7 +41,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <Link href="/PWADemo.apk">install App TWA</Link>
+      <Link href="/PWADemo.apk">install App TWA version 2.2.4</Link>
     </div>
   );
 }
